@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Ensure sections start on the same line */
+  padding: 2rem 4rem;
+  background-color: var(--background-color);
+  height: 100vh;
+}
+
+.leftSection, .rightSection {
+  flex: 1;
+  max-width: 50%;
+}
+
+.leftSection {
+  margin-right: 2rem; 
+}
+
+.rightSection {
+  margin-left: 2rem; 
+}
+.fullWidthSection {
+  flex: 1 1 100%;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-family: var(--heading-font);
+  font-size: var(--font-size-h1);
+  color: var(--heading-color);
+  margin-bottom: 1.5rem;
+  line-height: 95%;
+}
+
+.description {
+  font-family: var(--body-font);
+  font-size: var(--font-size-body);
+  color: var(--body-color);
+  line-height: 145%;
+  margin-bottom: 2rem;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+  height: 100%;
+}
+  /*experiences*/
+  .experience-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: start;
+    margin-top: 40px;
+  }
+  
+  .experience-description {
+    /* border-bottom: 2px solid #000; */
+    padding-bottom: 20px;
+  }
+  
+  .experience-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-collapse: collapse;
+  }
+  
+  .experience-row {
+    display: contents;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .experience-cell {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  

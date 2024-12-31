@@ -24,6 +24,7 @@ export default function Home() {
           className="image"
         />
       </div>
+     
     </div>
   );
 }
