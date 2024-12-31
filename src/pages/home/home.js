@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Projects from '../projects/project-home';
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
           className="image"
         />
       </div>
-     
     </div>
+   
   );
 }
