@@ -16,7 +16,9 @@ export default function Home() {
         I’m constantly inspired by unique marketing ideas in everyday life, 
         believing in their power to elevate brands and small projects to extraordinary heights.
         </p>
-        <button className="button-primary">Get in Touch →</button>
+        <a href="mailto:niharika.u03@gmail.com">
+          <button className="button-primary">Get in Touch →</button>
+        </a>
       </div>
       <div className="rightSection">
         <img

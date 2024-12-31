@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/home/home';
 import About from './pages/about/about';
-import Project1 from './pages/projects/project-1';
-import Project2 from './pages/projects/project-2';
+import Uicompanion from './pages/projects/individual-projects/Uicompanion';
 import Projects from './pages/projects/project-home';
 import LandingPage from './pages/home/LandingPage';
+import ExploreGaguk from './pages/projects/individual-projects/explore-gaguk';
 import './global.css'; 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/ui-companion-tool" element={<Project1 />} />
-        <Route path="/explore-gagugk" element={<Project2 />} />
+          <Route path="/ui-companion-tool" element={<Uicompanion />} />
+        <Route path="/explore-gagugk" element={<ExploreGaguk />} />
         </Routes>
       </div>
     </Router>

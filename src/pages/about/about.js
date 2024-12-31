@@ -31,13 +31,27 @@ function About() {
         </Suspense>
       </div>
       <div className="rightSection">
-        <img
-          src={`${process.env.PUBLIC_URL}/about.png`}
-          alt="About"
-          className="image"
-          loading="lazy"
-        />
-      </div>
+  <img
+    src={`${process.env.PUBLIC_URL}/about.png`}
+    alt="About"
+    className="image"
+    loading="lazy"
+  />
+  <div className="songOfTheWeek">
+    <p >Song of the Week: As someone who enjoys listening to music, here's a reccomndation</p>
+    <iframe
+      style={{ borderRadius: '12px',  }}
+      src="https://open.spotify.com/embed/track/7F5oktn5YOsR9eR5YsFtqb?utm_source=generator" 
+      width="100%" 
+      height="140" 
+      frameBorder="0" 
+      allowfullscreen="" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
     </div>
     
     </div>
