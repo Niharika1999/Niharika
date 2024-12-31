@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container">
       <div className="leftSection">
         <h1 className="heading">
-          Hi! This is Niharika, a website designer and developer
+          Hi! This is Niharika, a website designer and developer.
         </h1>
         <p className="description">
         I love creating websites that blend seamless functionality with striking visuals, 
